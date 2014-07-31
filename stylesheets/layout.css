@@ -1,0 +1,83 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+header {
+	margin:2em 0;
+	font-family: 'OpenSansCondensedBold';
+	font-weight: bold;
+	position: absolute;
+ 	text-align: left; 
+	background-color: rgba(0,0,0,0.5); 
+	padding: 40px 60px;
+	font-variant: small-caps; 
+	z-index: 1
+}
+
+header h1 {
+	font-family: 'OpenSansCondensedBold';
+}
+
+thead {
+	font-weight: bold;
+}
+
+#map {
+	width:100%;
+	height:100%;
+}
+
+main {
+	margin: 2em 0;
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+@font-face {
+    font-family: 'OpenSansCondensedBold';
+    src: url('stylesheets/fonts/opensans-condbold-webfont.eot');
+    src: url('stylesheets/fonts/opensans-condbold-webfont.eot?#iefix') format('embedded-opentype'), 		 url('fonts/opensans-condbold-webfont.woff') format('woff'), 
+		 url('stylesheets/fonts/opensans-condbold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
