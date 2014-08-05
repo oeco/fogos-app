@@ -21,7 +21,7 @@ header {
 	font-family: 'OpenSansCondensedBold';
 	font-weight: bold;
 	position: absolute;
- 	text-align: center; 
+ 	text-align: left; 
 	background-color: rgba(0,0,0,0.5); 
 	padding: 40px 60px;
 	font-variant: small-caps; 
@@ -43,6 +43,43 @@ thead {
 
 main {
 	margin: 2em 0;
+}
+
+.fb{
+	width:15px;
+	height:15px;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	position: absolute; 
+	margin:1em 1.2em; 
+	top:50px; 
+	right:106px; 
+	z-index: 2;
+}
+
+.twitter{
+	width:19px;
+	height:15px;
+	opacity: 0.2;
+	filter: alpha(opacity=100);
+	position: absolute;
+ 	margin:1em 1.2em;
+ 	top:50px;
+ 	right:126px;
+ 	z-index: 2;
+
+}
+
+.fb:hover
+{
+	opacity: 0.5;
+	filter: alpha(opacity=30);
+}
+
+.twitter:hover
+{
+	opacity: 0.5;
+	filter: alpha(opacity=30);
 }
 
 
