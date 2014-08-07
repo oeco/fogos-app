@@ -4,6 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
+<html prefix="og: http://ogp.me/ns#">
 
 	<!-- Basic Page Needs
   ================================================== -->
@@ -11,7 +12,7 @@
 	<title>InfoAmazonia Fires</title>
 	<meta name="description" content="Map of fires from January 2012 to June 2014">
 	<meta name="author" content="">
-	<meta name="image" content="images/firesreenshot.png">
+	<meta property="og:image" content="http://infoamazonia.org/projects/fire/images/firescreenshot.png">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
