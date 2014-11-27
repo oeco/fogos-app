@@ -1,0 +1,12 @@
+Parameters for CartoDB visualization
+
+Visualization wizard: Torque
+Time column: acq_date
+Market type: ellipse
+Marker fill: 3 #FF2900 0.9
+Marker Stroke: 0 #FFF 0
+Duration (secs): 100
+Steps: 512
+Blend Mode: lighter
+Trails: 3
+Resolution: 2
