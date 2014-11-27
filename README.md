@@ -7,4 +7,4 @@ Una página HTML para el aplicativo de InfoAmazonia sobre incendios en la regió
 About the Data:
 Near Real-Time fires Data from NASA EOSDIS Fire Information for Resource Management System (FIRMS)
 
-2012 to November 2014
+January 2012 to November 2014
