@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="pt"> <!--<![endif]-->
+<head>
+<html prefix="og: http://ogp.me/ns#">
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>InfoAmazonia Fires</title>
+  <meta name="description" content="Mapa de fogos de Janeiro 2012 à Novembro 2014">
+  <meta name="author" content="">
+  <meta property="og:image" content="http://infoamazonia.org/projects/fire/images/firescreenshot.png">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="stylesheets/base.css">
+  <link rel="stylesheet" href="stylesheets/skeleton.css">
+  <link rel="stylesheet" href="stylesheets/layout.css">
+  <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/	cartodb.css" />
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="images/amazonia.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+
+<body>
+<a class="logo" href= "http://infoamazonia.org/" target="_blank">InfoAmazonia</a>
+
+<div class="twitter"><a href="http://twitter.com/home?status=Mapa de Fogos na Amazônia– http://infoamazonia.org/projects/fire/" rel="external" target="_blank" title="Twitter">Twitter</a></div>
+
+<div class="fb"> <a href="http://www.facebook.com/sharer.php?u=http://www.infoamazonia.org/projects/fire" rel="external" target="_blank" title="Facebook">Facebook</a></div>
+
+<header>
+    <h1>Fires in the Amazon</h1>
+</header>
+
+<div id="map"></div>
+
+<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+<script>
+window.onload = function() {
+  cartodb.createVis('map', 'http://infoamazonia.cartodb.com/api/v2/viz/52883874-7662-11e4-a6bb-0e4fddd5de28/viz.json');
+}
+</script>
+
+</body>
+</html>
