@@ -39,24 +39,31 @@
 </head>
 
 <body>
-<a class="logo" href= "http://infoamazonia.org/" target="_blank">InfoAmazonia</a>
 
-<div class="twitter"><a href="http://twitter.com/home?status=Fires in the Amazon map – http://infoamazonia.org/projects/fire/" rel="external" target="_blank" title="Twitter">Twitter</a></div>
-
-<div class="fb"> <a href="http://www.facebook.com/sharer.php?u=http://www.infoamazonia.org/projects/fire" rel="external" target="_blank" title="Facebook">Facebook</a></div>
-
-<header>
+	<header>
 		<h1>Fires in the Amazon</h1>
-</header>
+	</header>
 
-<div id="map"></div>
+	<div><a class="logo" href= "http://infoamazonia.org/" target="_blank">InfoAmazonia</a></div>
 
-<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
-<script>
-window.onload = function() {
-  cartodb.createVis('map', 'http://infoamazonia.cartodb.com/api/v2/viz/b7909ed8-75cb-11e4-aedb-0e9d821ea90d/viz.json');
-}
-</script>
+	<div class="twitter"><a href="http://twitter.com/home?status=Fires in the Amazon map – http://infoamazonia.org/projects/fire/" rel="external" target="_blank" title="Twitter">Twitter</a></div>
+
+	<div class="fb"> <a href="http://www.facebook.com/sharer.php?u=http://www.infoamazonia.org/projects/fire" rel="external" target="_blank" title="Facebook">Facebook</a></div>
+
+	<div class="languages">
+		<a class="esp" href="esp.html">Español</a>
+		<a class="port" href="port.html">Português</a>
+	</div>
+
+	<div id="map"></div>
+
+	<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+	<script>
+		window.onload = function() {
+  	cartodb.createVis('map', 'http://infoamazonia.cartodb.com/api/v2/viz/b7909ed8-75cb-11e4-aedb-0e9d821ea90d/viz.json');
+		}
+	</script>
+
 
 </body>
 </html>
